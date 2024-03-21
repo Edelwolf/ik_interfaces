@@ -1,0 +1,11 @@
+# Anfrage
+geometry_msgs/Pose pose
+
+string[] joint_names
+float64[] limits_high
+float64[] limits_low
+
+# IkPoseRequest[] requests
+---
+# Antwort
+JointState[] ik_joint_states
