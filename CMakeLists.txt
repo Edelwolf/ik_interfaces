@@ -18,7 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CalcIK.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs
   )
-
+# keine änderung 
 # # We add it to be able to use other modules of the scripts folder
 # install(DIRECTORY
 #   ik_interfaces
